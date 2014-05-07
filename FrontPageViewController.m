@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
     
+    [_myImage setImage:[UIImage imageNamed: @"flyingKick.png"]];
+    
     self.stagesLabel.font = [UIFont fontWithName:@"nevis" size:self.stagesLabel.font.pointSize];
     
     

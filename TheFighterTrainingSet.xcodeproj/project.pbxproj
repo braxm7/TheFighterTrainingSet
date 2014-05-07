@@ -54,8 +54,8 @@
 		43FCF0641919D97C006CC37B /* TheFighterTrainingSetTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheFighterTrainingSetTests-Info.plist"; sourceTree = "<group>"; };
 		43FCF0661919D97C006CC37B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		43FCF0681919D97D006CC37B /* TheFighterTrainingSetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheFighterTrainingSetTests.m; sourceTree = "<group>"; };
-		43FCF0721919D9A6006CC37B /* FrontPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontPageViewController.h; sourceTree = "<group>"; };
-		43FCF0731919D9A6006CC37B /* FrontPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontPageViewController.m; sourceTree = "<group>"; };
+		43FCF0721919D9A6006CC37B /* FrontPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FrontPageViewController.h; path = ../FrontPageViewController.h; sourceTree = "<group>"; };
+		43FCF0731919D9A6006CC37B /* FrontPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FrontPageViewController.m; path = ../FrontPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +85,6 @@
 		43FCF0311919D97C006CC37B = {
 			isa = PBXGroup;
 			children = (
-				43FCF0721919D9A6006CC37B /* FrontPageViewController.h */,
-				43FCF0731919D9A6006CC37B /* FrontPageViewController.m */,
 				43FCF0431919D97C006CC37B /* TheFighterTrainingSet */,
 				43FCF0621919D97C006CC37B /* TheFighterTrainingSetTests */,
 				43FCF03C1919D97C006CC37B /* Frameworks */,
@@ -117,6 +115,8 @@
 		43FCF0431919D97C006CC37B /* TheFighterTrainingSet */ = {
 			isa = PBXGroup;
 			children = (
+				43FCF0721919D9A6006CC37B /* FrontPageViewController.h */,
+				43FCF0731919D9A6006CC37B /* FrontPageViewController.m */,
 				43FCF04C1919D97C006CC37B /* AppDelegate.h */,
 				43FCF04D1919D97C006CC37B /* AppDelegate.m */,
 				43FCF04F1919D97C006CC37B /* Main.storyboard */,

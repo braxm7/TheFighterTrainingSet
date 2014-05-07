@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
     
+    self.stagesLabel.font = [UIFont fontWithName:@"nevis" size:self.stagesLabel.font.pointSize];
+    
     
     self.stagesArray = @[@"Technique",
                          @"Combination Training",
@@ -51,10 +53,9 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    //    NSString *selectedSuggestionFoodItem = self.stagesArray[indexPath.row];
-    //
-    //    [self suggestionFoodSearch:selectedSuggestionFoodItem];
+//    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+//    NSString *cellText = cell.textLabel.text;
+//    [NSArray array:cellText];
 }
-
 
 @end

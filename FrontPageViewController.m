@@ -60,4 +60,15 @@
 //    [NSArray array:cellText];
 }
 
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    // Assume self.view is the table view
+    NSIndexPath *path = [self.myTableView indexPathForSelectedRow];
+//    DetailObject *detail = [self detailForIndexPath:path];
+//    [segue.destinationViewController setDetail:detail];
+}
+
+
+
 @end
